@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "GeneralUtility",
+        "repositoryURL": "https://github.com/erica/Swift-General-Utility",
+        "state": {
+          "branch": null,
+          "revision": "b1f548baa486dc644ecf773330279f9a3ab651a3",
+          "version": "0.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
