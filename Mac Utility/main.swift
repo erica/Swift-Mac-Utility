@@ -1,11 +1,3 @@
-//
-//  main.swift
-//  Mac Utility
-//
-//  Created by Erica Sadun on 6/30/20.
-//
+//  Copyright © 2020 Erica Sadun. All rights reserved.
 
 import Foundation
-
-print("Hello, World!")
-
