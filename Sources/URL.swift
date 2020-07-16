@@ -3,6 +3,11 @@
 import Foundation
 
 extension URL {
+    /// Returns true if the URL points to an existing item.
+    public var exists: Bool {
+        FileManager.default.fileExists(atPath: self.path)
+    }
+
     /// Create a destination URL to save a file that does not yet exist, using numbering
     /// to ensure the new file will not overwrite any other file.
     ///
