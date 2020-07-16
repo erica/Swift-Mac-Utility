@@ -14,7 +14,7 @@ let package = Package(
             targets: ["MacUtility"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/erica/Swift-General-Utility", from: "0.0.3"),
+        .package(url: "https://github.com/erica/Swift-General-Utility", from: "0.0.6"),
     ],
     targets: [
         .target(
