@@ -44,7 +44,7 @@ targets: [
     .target(
         name: "TARGET-NAME",
         dependencies: [
-           .product(name: "MacUtility"),
+           .product(name: "MacUtility", package: "Swift-Mac-Utility"),
         ],
     ),
 ],

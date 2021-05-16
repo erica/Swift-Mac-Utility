@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "MacUtility",
+    name: "Swift-Mac-Utility",
     platforms: [
       .macOS(.v10_12)
     ],
@@ -20,7 +20,7 @@ let package = Package(
         .target(
             name: "MacUtility",
             dependencies: [
-                .product(name: "GeneralUtility"),
+                .product(name: "GeneralUtility", package: "Swift-General-Utility"),
             ],
             path: "Sources/"
             ),
