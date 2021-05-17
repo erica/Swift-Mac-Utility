@@ -22,9 +22,10 @@ extension URL {
         let pathExtension = self.pathExtension
         let corePath = self.deletingPathExtension().path
 
-        // Find an offset that does not yet exist
         var offset = 2
-        while FileManager.default.fileExists(atPath: "\(corePath) \(offset).\(pathExtension)") { offset += 1 }
-        return URL(fileURLWithPath: "\(corePath) \(offset).\(pathExtension)")
+        let ext = pathExtension.isEmpty ? "" : ("." + pathExtension)
+
+        while FileManager.default.fileExists(atPath: "\(corePath) \(offset)\(ext)") { offset += 1 }
+            return URL(fileURLWithPath: "\(corePath) \(offset)\(ext)")
     }
 }
