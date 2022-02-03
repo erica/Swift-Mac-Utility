@@ -14,13 +14,15 @@ let package = Package(
             targets: ["MacUtility"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/erica/Swift-General-Utility", from: "0.0.6"),
+        .package(url: "https://github.com/erica/Swift-General-Utility", from: "0.0.8"),
+        .package(url: "https://github.com/erica/Swift-Misc-Utility", from: "0.0.0"),
     ],
     targets: [
         .target(
             name: "MacUtility",
             dependencies: [
                 .product(name: "GeneralUtility", package: "Swift-General-Utility"),
+                .product(name: "SwiftMiscUtility", package: "Swift-Misc-Utility"),
             ],
             path: "Sources/"
             ),

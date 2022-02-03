@@ -6,8 +6,17 @@
         "repositoryURL": "https://github.com/erica/Swift-General-Utility",
         "state": {
           "branch": null,
-          "revision": "07fd8dc71686f805018685635208dfac862da672",
-          "version": "0.0.6"
+          "revision": "90100fff38dea3e9f5eb25a3abb837ccca0120c8",
+          "version": "0.0.8"
+        }
+      },
+      {
+        "package": "SwiftMiscUtility",
+        "repositoryURL": "https://github.com/erica/Swift-Misc-Utility",
+        "state": {
+          "branch": null,
+          "revision": "6b9e52306d2ce932a840a266eca396112199178a",
+          "version": "0.0.0"
         }
       }
     ]

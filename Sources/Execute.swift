@@ -2,6 +2,7 @@
 
 import Foundation
 import GeneralUtility
+import SwiftMiscUtility
 
 fileprivate extension RuntimeError {
     /// Operation failed
